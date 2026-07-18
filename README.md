@@ -59,7 +59,6 @@ content-type: application/json
 {"id":4,"title":"Do the homework","done":false}
 ```
 
-*(Replace the block above with your own real terminal output before submitting — this is a placeholder example.)*
 
 ## Swagger UI
 
