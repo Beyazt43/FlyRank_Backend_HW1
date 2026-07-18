@@ -3,6 +3,14 @@ from pydantic import BaseModel
 
 app = FastAPI()
 
+
+@app.get(
+    "/", summary="API info", description="Returns basic information about this API."
+)
+def root():
+    return {"name": "Task API", "version": "1.0", "endpoints": ["/tasks"]}
+
+
 tasks = [
     {"id": 1, "title": "Buy milk", "done": False},
     {"id": 2, "title": "Walk the dog", "done": False},
