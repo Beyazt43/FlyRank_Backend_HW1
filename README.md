@@ -64,7 +64,7 @@ content-type: application/json
 
 ![Swagger UI screenshot](swagger-screenshot.png)
 
-*(Add your actual screenshot file to the repo root with this filename, or update the path above to match yours.)*
+
 
 ## Notes on validation behavior
 
